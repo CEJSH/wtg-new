@@ -30,6 +30,7 @@ export default function MapPage() {
   const BaseURL =
     process.env.NEXT_PUBLIC_BASE_SERVER_URL || 'http://34.118.200.178:8000'
   const { data } = useFetchConstructionData(b_code, BaseURL)
+
   useEffect(() => {
     const script = document.createElement('script')
     script.src = `https://dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.REACT_APP_KAKAO_APP_KEY}&libraries=services&autoload=false`
@@ -55,6 +56,7 @@ export default function MapPage() {
       setFinalInputValue(search)
     }
   }
+
   return (
     <div>
       <Navbar />
@@ -69,7 +71,7 @@ export default function MapPage() {
               type="search"
               onChange={(e) => setSearch(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="press enter"
+              placeholder="번지를 입력하신 후 엔터를 누르세요"
             />
           </div>
           <ul className={cx('result-wrap')}>

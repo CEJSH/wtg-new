@@ -5,11 +5,9 @@ export const fetchConstructionData = async (
   if (!b_code) {
     throw new Error('b_code is required')
   }
-
   const response = await fetch(
     `${BaseURL}/construction/get-by-searched-region?b_code=${b_code}`,
   )
-
   if (!response.ok) {
     throw new Error('Network response was not ok')
   }
