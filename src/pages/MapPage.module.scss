@@ -1,0 +1,36 @@
+.wrap-map {
+  width: full;
+  display: flex;
+  .map {
+    width: 80%;
+    height: 100dvh;
+  }
+  .result-title {
+    text-align: center;
+    font-weight: 700;
+    padding: 16px 0;
+    font-size: 13px;
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    border-color: #cccccc;
+    .search-input {
+      margin-top: 8px;
+    }
+    .search-input:focus {
+      outline: none;
+    }
+  }
+  .wrap-detail {
+    padding-top: 62px;
+    width: 20%;
+  }
+  .result-wrap {
+    padding: 0 20px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    height: calc(100dvh - 46px - 62px);
+  }
+}

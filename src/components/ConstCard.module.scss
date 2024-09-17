@@ -1,0 +1,34 @@
+.wrap-card {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+  line-height: 135%;
+
+  .arch-type {
+    font-size: 14px;
+    font-weight: 700;
+    color: #49beb7;
+    margin-bottom: 2px;
+  }
+
+  .arch-name {
+    font-weight: 700;
+  }
+
+  .arch-address {
+    font-size: 13px;
+    font-weight: 600;
+    color: #606060;
+  }
+
+  .wrap-d-day {
+    display: flex;
+    gap: 6px;
+    font-size: 13px;
+  }
+
+  .d-day {
+    font-weight: 600;
+    color: #606060;
+  }
+}
