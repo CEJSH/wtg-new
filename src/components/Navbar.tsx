@@ -8,7 +8,12 @@ export default function Navbar() {
   return (
     <div className={cx('container')}>
       <Link to="/" className={cx('logo')}>
-        WTG
+        <img
+          src="/assets/wtg-logo.png"
+          style={{ verticalAlign: 'initial' }}
+          alt="logo"
+          height={34}
+        />
       </Link>
     </div>
   )

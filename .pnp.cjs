@@ -47,7 +47,6 @@ const RAW_RUNTIME_STATE =
           ["react-query", "virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:3.39.3"],\
           ["react-router-dom", "virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:6.26.2"],\
           ["react-scripts", "virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:5.0.1"],\
-          ["recoil", "virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:0.7.7"],\
           ["sass", "npm:1.78.0"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
@@ -9971,15 +9970,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["hamt_plus", [\
-      ["npm:1.0.2", {\
-        "packageLocation": "./.yarn/cache/hamt_plus-npm-1.0.2-67a52ee1df-c5aa5cc082.zip/node_modules/hamt_plus/",\
-        "packageDependencies": [\
-          ["hamt_plus", "npm:1.0.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["handle-thing", [\
       ["npm:2.0.1", {\
         "packageLocation": "./.yarn/cache/handle-thing-npm-2.0.1-084baca59e-7ae34ba286.zip/node_modules/handle-thing/",\
@@ -15629,37 +15619,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["recoil", [\
-      ["npm:0.7.7", {\
-        "packageLocation": "./.yarn/cache/recoil-npm-0.7.7-4452f58b67-630a73b0bd.zip/node_modules/recoil/",\
-        "packageDependencies": [\
-          ["recoil", "npm:0.7.7"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:0.7.7", {\
-        "packageLocation": "./.yarn/__virtual__/recoil-virtual-6ee4d97999/0/cache/recoil-npm-0.7.7-4452f58b67-630a73b0bd.zip/node_modules/recoil/",\
-        "packageDependencies": [\
-          ["recoil", "virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:0.7.7"],\
-          ["@types/react", "npm:18.3.6"],\
-          ["@types/react-dom", "npm:18.3.0"],\
-          ["@types/react-native", null],\
-          ["hamt_plus", "npm:1.0.2"],\
-          ["react", "npm:18.3.1"],\
-          ["react-dom", "virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:18.3.1"],\
-          ["react-native", null]\
-        ],\
-        "packagePeers": [\
-          "@types/react-dom",\
-          "@types/react-native",\
-          "@types/react",\
-          "react-dom",\
-          "react-native",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["recursive-readdir", [\
       ["npm:2.2.3", {\
         "packageLocation": "./.yarn/cache/recursive-readdir-npm-2.2.3-3f177ebd90-d0238f137b.zip/node_modules/recursive-readdir/",\
@@ -18632,7 +18591,6 @@ const RAW_RUNTIME_STATE =
           ["react-query", "virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:3.39.3"],\
           ["react-router-dom", "virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:6.26.2"],\
           ["react-scripts", "virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:5.0.1"],\
-          ["recoil", "virtual:a37e58fb5f73b22bcee20d5832d35d041c43b6883bb118333251163ddd5994a737015028d16d019eb3f22ac4ca750e0cb5dd3162fafd51d88db94a5bc5ee200b#npm:0.7.7"],\
           ["sass", "npm:1.78.0"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\

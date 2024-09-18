@@ -9,15 +9,17 @@
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   background-color: white;
   z-index: 100;
-}
 
-.logo {
-  color: var(--wtgblue);
-  font-size: x-large;
-  font-weight: 800;
-  letter-spacing: 1px;
-  cursor: pointer;
-  padding: 0 18px;
+  .logo {
+    display: flex;
+    align-items: center;
+    color: var(--wtgblue);
+    font-size: x-large;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 0 18px;
+  }
 }
 
 .list {
